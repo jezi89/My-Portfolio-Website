@@ -4,37 +4,39 @@ import { SocialIcon } from 'react-social-icons';
 
 export default function NavBar() {
   return (
-    <header className="bg-red-600">
+    <header className="mix-blend-hue bg-aqua-deep-500">
       <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
             to="/"
             exact
-            activeClassName="text-white"
-            className="inflex-flex items-center py-6 px-3 mr-4 text-red-100 hover:text-green-800 text-4xl font-bold cursive tracking-widest"
+            activeClassName="text-gray-100"
+            className="py-2 text-6xl inflex-flex items-center px-8 text-brown-200 text-bg-gray-200 hover:text-aqua-deep-500 hover:bg-brown-200 rounded-2xl font-bold serif transition-all duration-500 ease-in-out border-b-8 border-transparent hover:border-aqua-deep-300 tracking-wider"
           >
             Jer
           </NavLink>
           <NavLink
             to="/post"
-            className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 text-lg"
-          >
-            Blog Posts
+            activeClassName="text-aqua-deep-100"
+            className="pt-2 text-xl inline-flex items-center px-3 text-brown-200 hover:text-aqua-deep-300 hover:bg-gray-100 transition ease-out duration-700 border-b-8 border-transparent hover:border-brown-200 rounded-2xl"
+          >Dev Blog
           </NavLink>
           <NavLink
             to="/project"
-            className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 text-lg"
+            activeClassName="text-aqua-deep-200"
+            className="pt-2 text-xl inline-flex items-center px-3 text-brown-200 hover:text-aqua-deep-300 hover:bg-gray-100 transition ease-out duration-700 border-b-8 border-transparent hover:border-brown-200 rounded-2xl"
           >
             Projects
           </NavLink>
           <NavLink
             to="/about"
-            className="inflex-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800 text-lg"
+            activeClassName="text-gray-100"
+            className="pt-2 text-xl inline-flex items-center px-3 text-brown-200 hover:text-aqua-deep-300 hover:bg-gray-100 transition ease-out duration-700 border-b-8 border-transparent hover:border-brown-200 rounded-2xl"
           >
             About Me!
           </NavLink>
         </nav>
-        <div className="inline-flex py-3 px-3 my-6">
+        <div className="inline-flex py-3 px-3 my-3">
           <SocialIcon
             url="https://www.youtube.com/channel/UCdXEmMNTPfo76w50SX8OAew"
             className="mr-4"

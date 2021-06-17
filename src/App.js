@@ -6,6 +6,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Project from "./components/Project";
 import SinglePost from "./components/SinglePost";
+import UnderConstruction from "./components/UnderConstruction";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route component={SinglePost} path="/post/:slug" />
         <Route component={Post} path="/post" />
         <Route component={Project} path="/project" />
+        <Route component={UnderConstruction} path="/underconstruction" />
       </Switch>
     </BrowserRouter>
   );

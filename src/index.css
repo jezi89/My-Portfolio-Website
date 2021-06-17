@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Yatra+One:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=candal:wght@700&display=swap");
 
-.cursive {
-  font-family: "Yatra One", cursive;
+.serif {
+  font-family: "Candal", sans-serif;
   font-weight: 700;
 }
 
@@ -15,5 +16,5 @@
 }
 
 .home-name {
-  font-size: 150px;
+  font-size: 120px;
 }
