@@ -23,9 +23,9 @@
     "@sanity/vision": "^2.11.2",
     "prop-types": "^15.7",
     "react": "^17.0",
-    "react-dom": "^17.0"
+    "react-dom": "^17.0",
+    "styled-components": "^5.3.3"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/jezi89/my_portfolio.git"
